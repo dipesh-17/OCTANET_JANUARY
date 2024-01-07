@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #d0d4d5;
+    position:relative;
+}
+#nav{
+    height: 90px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav img{
+    height: 70px;
+    width: auto;
+    margin-right: 170px;
+}
+#nav-prt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-prt1 h4{
+    margin-right: 60px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#nav-prt2 i{
+    margin-right: 60px;
+    font-size: 23px;
+    font-weight: 500;
+}
+#content{
+    width: 100%;
+    height:calc(100% - 90px);
+    position: relative;
+    display: flex;
+}
+#left{
+    width: 36%;
+    height: 100%;
+   padding: 100px 110px ;
+
+}
+#left h5{
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: #535353;
+    
+}
+#left h1{
+    font-size: 60px;
+    line-height: 67px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+#left p{
+    font-size: 14px;
+    width: 68%;
+    margin-bottom: 50px;
+}
+#left button{
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    text-transform: uppercase;
+}
+#right{
+    height: 100%;
+    width: 64%;
+    position: relative;
+    padding: 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+#right::-webkit-scrollbar{
+    display: none;
+}
+.lem{
+    height: 420px;
+    width: 280px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+.lem img{
+    height: 60%;
+    width: 100%;
+    top: 7%;
+    object-fit: cover;
+    position: absolute;
+}
+.lem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #d0d4d5;
+    color: #535353;
+    padding: 15px 34px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.lem h5{
+    position: absolute;
+    bottom: 11%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 13px 32px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
